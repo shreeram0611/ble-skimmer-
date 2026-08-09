@@ -1,0 +1,35 @@
+<svg width="680" height="360" viewBox="0 0 680 360" xmlns="http://www.w3.org/2000/svg" font-family="Helvetica, Arial, sans-serif">
+  <rect width="680" height="360" fill="#ffffff"/>
+
+  <rect x="270" y="90" width="140" height="200" rx="8" fill="#e0f2ee" stroke="#0F6E56" stroke-width="1"/>
+  <text x="340" y="115" text-anchor="middle" font-size="14" font-weight="bold" fill="#0F6E56">ESP32-S3</text>
+
+  <rect x="60" y="110" width="170" height="110" rx="8" fill="#e3edf9" stroke="#185FA5" stroke-width="1"/>
+  <text x="145" y="135" text-anchor="middle" font-size="14" font-weight="bold" fill="#185FA5">0.96" OLED</text>
+  <text x="145" y="153" text-anchor="middle" font-size="11" fill="#185FA5">SSD1306, I2C</text>
+
+  <line x1="230" y1="130" x2="270" y2="130" stroke="#185FA5" stroke-width="1.5"/>
+  <text x="235" y="123" font-size="11" fill="#185FA5">3.3V</text>
+  <line x1="230" y1="155" x2="270" y2="155" stroke="#185FA5" stroke-width="1.5"/>
+  <text x="235" y="148" font-size="11" fill="#185FA5">GND</text>
+  <line x1="230" y1="180" x2="270" y2="180" stroke="#185FA5" stroke-width="1.5"/>
+  <text x="235" y="173" font-size="11" fill="#185FA5">SDA -&gt; GPIO8</text>
+  <line x1="230" y1="205" x2="270" y2="205" stroke="#185FA5" stroke-width="1.5"/>
+  <text x="235" y="198" font-size="11" fill="#185FA5">SCL -&gt; GPIO9</text>
+
+  <rect x="460" y="150" width="150" height="70" rx="8" fill="#fbf0dd" stroke="#854F0B" stroke-width="1"/>
+  <text x="535" y="175" text-anchor="middle" font-size="14" font-weight="bold" fill="#854F0B">Buzzer</text>
+  <text x="535" y="193" text-anchor="middle" font-size="11" fill="#854F0B">Active type</text>
+
+  <line x1="410" y1="170" x2="460" y2="170" stroke="#854F0B" stroke-width="1.5"/>
+  <text x="425" y="163" font-size="11" fill="#854F0B">GPIO4</text>
+  <line x1="410" y1="200" x2="460" y2="200" stroke="#854F0B" stroke-width="1.5"/>
+  <text x="425" y="193" font-size="11" fill="#854F0B">GND</text>
+
+  <rect x="270" y="300" width="200" height="45" rx="8" fill="#fbe7e2" stroke="#993C1D" stroke-width="1"/>
+  <text x="370" y="327" text-anchor="middle" font-size="12" fill="#993C1D">Alert LED = onboard LED_BUILTIN</text>
+  <text x="370" y="342" text-anchor="middle" font-size="10" fill="#993C1D">(no external wiring needed)</text>
+
+  <text x="20" y="345" font-size="11" fill="#5F5E5A">Note: GPIO8/9/4 chosen to avoid ESP32-S3's reserved flash/PSRAM,</text>
+  <text x="20" y="358" font-size="11" fill="#5F5E5A">strapping, and native-USB pins.</text>
+</svg>
